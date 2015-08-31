@@ -1,6 +1,10 @@
+html{
+	background-color: #F0F0F0;
+}
+
 .contained {
 	position:absolute;
-	top:50px;
+	top:50%;
 	left:20px;
 	border:1px solid red;
     height: 150px;
@@ -8,28 +12,48 @@
     white-space: nowrap;
     overflow-x: scroll;
     overflow-y: hidden;
-    transform: rotate(-20deg);
+    transform: rotate(-30deg);
     
 }
 
-.panel-background{
-	background-color: gray;
-	box-shadow:2px 2px 5px black;
-	height:50px;
-	width:150%;
+.nav-panel {
+	padding-left: 25px;
+    margin-top: 7px;
+    background-color: #F6F2F8;
+    box-shadow: 1px 1px 4px #898989;
+    height: 50px;
+    width: 150%;
 }
 
-.item {
+.nav-item {
 	display:inline-block;
-	background-color: blue;
 	height:100px;
 	width:50px;
-	border-radius: 3px;
 	margin:5px;
-	border: 1px solid black;
-	transform: rotate(20deg);
+	transform: rotate(30deg);
 }
 
-.flx {
+.nav-btn-containter {
+	text-align: center;
 	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+}
+
+.nav-btn-icon {
+    border-radius: 50%;
+    height:30px;
+    width:30px;
+    line-height: 30px;
+    
+    padding-bottom:2px;
+
+    font-weight:bold;
+}
+
+.nav-btn-vert-line {
+    height: 50px;
+    border-right: 1px solid gray;
+    width:0px;
 }

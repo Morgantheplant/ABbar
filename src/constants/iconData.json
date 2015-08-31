@@ -1,0 +1,49 @@
+module.exports = [
+{
+ "itemColor":"Gold",
+ "iconType":"fa fa-exclamation-triangle",
+ "iconText":"Report"
+},
+{
+ "itemColor":"navy",
+ "iconType":"fa fa-eye-slash",
+ "iconText":"Hide"
+},
+{
+ "itemColor":"Cyan",
+ "iconType":"fa fa-star-o",
+ "iconText":"Save"
+},
+{
+ "itemColor":"Crimson",
+ "iconType":"fa fa-share-square",
+ "iconText":"Share"
+},
+{
+ "itemColor":"DarkViolet",
+ "iconType":"fa fa-compass",
+ "iconText":"Safari"
+},
+{
+ "itemColor":"DarkSlateBlue",
+ "iconType":"fa fa-arrow-down",
+ "iconText":"Downvote"
+},
+{
+ "itemColor":"DarkOrange",
+ "iconType":"fa fa-arrow-up",
+ "iconText":"Upvote"
+},
+{
+ "itemColor":"DeepPink",
+ "iconType":"fa fa-cog",
+ "iconText":"Settings"
+},
+{
+ "itemColor":"DarkCyan",
+ "iconType":"fa fa-envelope-o",
+ "iconText":"Messages"
+}
+]
+
+
