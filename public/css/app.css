@@ -1,0 +1,35 @@
+.contained {
+	position:absolute;
+	top:50px;
+	left:20px;
+	border:1px solid red;
+    height: 150px;
+    width: 80%;
+    white-space: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    transform: rotate(-20deg);
+    
+}
+
+.panel-background{
+	background-color: gray;
+	box-shadow:2px 2px 5px black;
+	height:50px;
+	width:150%;
+}
+
+.item {
+	display:inline-block;
+	background-color: blue;
+	height:100px;
+	width:50px;
+	border-radius: 3px;
+	margin:5px;
+	border: 1px solid black;
+	transform: rotate(20deg);
+}
+
+.flx {
+	display:flex;
+}
