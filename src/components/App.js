@@ -10,9 +10,7 @@ var App = React.createClass({
 		console.log(iconData)
 
 		return (
-			<div className="contained">
 			  <NavPanel iconData={ iconData } />
-			</div>
 			)
 	}
 });
