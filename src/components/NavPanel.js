@@ -7,7 +7,7 @@ var NavPanel= React.createClass({
         return {
       	    sliderInitialLocation: 300,
       	    sliderEndLocation:0
-        }
+        };
     },
     componentDidMount: function(){
        var navSlider = React.findDOMNode(this.refs.navContainer);
@@ -26,10 +26,10 @@ var NavPanel= React.createClass({
             }
             if(countdown>150) {
                 var newVal = EasingOutElastic(countdown, {to:150, from:250})
-         	// dampen easing effect
-         	navSlider.scrollLeft = Math.floor(300 - (newVal * 200));
-         	countdown--;
-         	setTimeout(loop, 20);
+         	    // dampen easing effect
+         	    navSlider.scrollLeft = Math.floor(300 - (newVal * 200));
+             	countdown--;
+         	    setTimeout(loop, 20);
             }
        }, 500);
     },
